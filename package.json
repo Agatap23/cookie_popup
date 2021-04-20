@@ -1,0 +1,11 @@
+{
+  "name": "cookies-popup",
+  "version": "1.0.0",
+  "description": "Tool for displaying Cookies notification",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agata",
+  "license": "ISC"
+}

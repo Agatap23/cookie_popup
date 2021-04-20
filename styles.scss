@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+.main {
+    height: 200vh;
+    background-color: #e6faff;
+    padding: 5%;
+}
+.popup-container {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    .popup-title {
+        padding: 2%;
+        text-align: center;
+    }
+    .popup {
+        width: 400px;
+        max-height: 500px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        .popup-body {
+            max-height: 400px;
+            overflow: scroll;
+        }
+    }
+}
+.vendor-list {
+    list-style: none;
+    padding: 0;
+}
+.buttons {
+    padding: 2%;
+}
+.none {
+    display: none;
+}
+.no-scroll {
+    overflow-y: hidden;
+}
